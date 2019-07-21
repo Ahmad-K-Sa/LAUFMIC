@@ -1,0 +1,273 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ece8e4;
+  overflow-x: hidden;
+}
+
+.card-programs {
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: #ECE8E4 !important;
+}
+
+.programs {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* navbar */
+
+.navbar ul {
+  list-style: none;
+  text-align: center;
+}
+.navbar ul li {
+  display: inline-block;
+}
+.navbar ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 800;
+  margin: 0 10px;
+}
+.navbar ul li a,
+.navbar ul li a:after,
+.navbar ul li a:before {
+  transition: all .5s;
+}
+.navbar ul li a:hover {
+  color: #000000;
+}
+
+.navbar ul li a{
+  position: relative;
+}
+.navbar ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #000000;
+  height: 1px;
+}
+
+.navbar ul li a:hover:after {
+  width: 100%;
+}
+
+.navbar{
+  animation-name: navanim;
+  animation-duration: 3s;
+}
+
+@keyframes navanim {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* end of banner */
+
+/* programs */
+
+.programs-img-1{
+  transition: all 0.4s;
+}
+
+.programs-img-2{
+transition: all 0.4s;
+}
+
+.programs-img-3{
+  position: relative;
+  left: -35%;
+  transition: all 0.4s;
+}
+
+.programs-img-4{
+  transition: all 0.4s;
+}
+
+.programs-img-5{
+  position: relative;
+  left: -25%;
+  transition: all 0.4s;
+}
+
+.programs-img-1:hover{
+transform: translateY(-15px);
+}
+
+.programs-img-2:hover{
+  transform: translateY(-15px);
+}
+
+.programs-img-3:hover{
+  transform: translateY(-15px);
+}
+
+.programs-img-4:hover{
+  transform: translateY(-15px);
+}
+
+.programs-img-5:hover{
+  transform: translateY(-15px);
+}
+
+.programs-info:hover{
+  transform: translateY(-15px);
+}
+
+.programs-info{
+  transition: all 0.4s;
+}
+
+
+/* end of programs */
+
+/* footer */
+
+
+/*FOOTER*/
+
+footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoInstagram:hover {
+  background-color: #9678b6;
+}
+
+.social-network a.icoTwitter:hover {
+  background-color: #add8e6;
+}
+
+.social-network a.icoGoogle:hover {
+  background-color: #ffae42;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i,
+.social-network a.icoGoogle:hover i,
+.social-network a.icoInstagram:hover i,
+.social-network a.icoTwitter:hover i {
+  color: #fff;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+
+
+/* end of footer */
